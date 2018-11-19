@@ -1,0 +1,218 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	overflow: hidden;
+	background: radial-gradient(white,whitesmoke);
+}
+header{
+	background: #415e9b;
+	height: 82px;
+	width: 100%;
+	border: 1px solid darkblue;
+}
+#logo{
+	position: absolute;
+	left: 160px;
+	top: 26px;
+	font-family: Lucida Fax;
+	font-size: 42px;
+	color: white;
+}
+#email{
+	position: absolute;
+	left: 800px;top: 12px;
+	font-family: Lucida Fax;
+	font-size: 12px;
+	color: white;
+}
+#parol{
+	position: absolute;
+	left: 980px;top: 12px;
+	font-family: Lucida Fax;
+	font-size: 12px;
+	color: white;
+}
+#login{
+	position: absolute;
+	left: 800px;top: 34px;
+	font-family: Lucida Fax;
+	font-size: 12px;
+	height: 18px;width: 160px;
+}
+#password{
+	position: absolute;
+	left: 980px;top: 34px;
+	font-family: Lucida Fax;
+	font-size: 12px;
+	a
+	height: 18px;width: 160px;
+}
+#giris{
+	position: absolute;
+	left: 1160px;top: 37px;
+	font-family: Lucida Fax;
+	font-size: 12px;
+	background-color:   #4461a2;
+	height: 18px;width: 80px;
+	color: #fff;
+}
+#check{
+	position: absolute;
+	left: 800px;top: 62px;
+	color: white;
+}
+#logged{
+	position: absolute;
+	left: 823px;top: 61px;
+	font-family: Lucida Fax;
+	font-size: 12px;
+	height: 18px;width: 130px;
+	color:  #cccccc;
+}
+#forgot{
+	position: absolute;
+	left: 980px;top: 61px;
+	font-family: Lucida Fax;
+	font-size: 12px;
+	height: 18px;width: 190px;
+	color: #ccc;
+}
+#sign{
+	position: absolute;
+	left: 750px;top: 150px;
+	font-family: Lucida Fax;
+	font-size: 35px;
+	color: #415e9b;
+}
+#free{
+	position: absolute;
+	left: 750px;top: 195px;
+	font-family: Lucida Fax;
+	font-size: 32px;
+	color: #415e9b;
+}
+#fname{
+	position: absolute;
+	right: 470px;top: 270px;
+	font-family: Lucida Fax;
+	font-size: 14px;
+	color: #415e9b;
+}
+#yemail{
+	position: absolute;
+	right: 470px;top: 300px;
+	font-family: Lucida Fax;
+	font-size: 14px;
+	color: #415e9b;
+}
+#newpass{
+	position: absolute;
+	right: 470px;top: 330px;
+	font-family: Lucida Fax;
+	font-size: 14px;
+	color: #415e9b;
+}
+#iam{
+	position: absolute;
+	right: 470px;top: 370px;
+	font-family: Lucida Fax;
+	font-size: 12px;
+	color: #415e9b;
+}
+#birth{
+	position: absolute;
+	right: 470px;top: 410px;
+	font-family: Lucida Fax;
+	font-size: 12px;
+	color: #415e9b;
+}
+#tfname{
+	position: absolute;
+	right: 255px;top: 265px;
+	font-family: Lucida Fax;
+	font-size: 12px;
+	border: 1px solid darkblue;
+	width: 190px;height: 20px;
+}
+#tyemail{
+	position: absolute;
+	right: 255px;top: 293px;
+	font-family: Lucida Fax;
+	font-size: 12px;
+	border: 1px solid darkblue;
+	width: 190px;height: 20px;
+}
+#tnewpass{
+	position: absolute;
+	right: 255px;top: 321px;
+	font-family: Lucida Fax;
+	font-size: 12px;
+	border: 1px solid darkblue;
+	width: 190px;height: 20px;
+}
+#cins{
+	position: absolute;
+	right: 295px;top: 365px;
+	font-family: Lucida Fax;
+	font-size: 12px;
+	border: 1px solid darkblue;
+	width: 150px;height: 20px;
+}
+#ygun{
+    position: absolute;
+	right: 403px;top: 403px;
+	font-family: Lucida Fax;
+	font-size: 12px;
+	border: 1px solid darkblue;
+	width: 40px;height: 20px;
+}
+#yay{
+    position: absolute;
+	right: 288px;top: 403px;
+	font-family: Lucida Fax;
+	font-size: 12px;
+	border: 1px solid darkblue;
+	width: 100px;height: 22px;
+}
+#yil{
+    position: absolute;
+	right: 203px;top: 403px;
+	font-family: Lucida Fax;
+	font-size: 12px;
+	border: 1px solid darkblue;
+	width: 70px;height: 20px;
+}
+#why{
+	position: absolute;
+	right: 262px;top: 440px;
+	font-family: Lucida Fax;
+	font-size: 12px;
+	color:  #415e9b;
+}
+#daxilol{
+	position: absolute;
+	right: 347px;top: 488px;
+	font-family: Lucida Fax;
+	font-size: 13px;
+	background-color: #4461a2;
+	height: 25px;width: 100px;
+	border: 1px solid darkblue;
+	border-radius: 2px;
+	color: #fff;
+}
+#help{
+	position: absolute;
+	left: 60px;top: 160px;
+	font-family: Lucida Fax;
+	font-size: 27px;
+	width: 650px;
+	color: #415e9b;
+}
+#fbimg{
+	position: absolute;
+	left: 40px;top: 230px;
+	width: 750px;height: 280px;
+    border: 1px solid white;
+}
